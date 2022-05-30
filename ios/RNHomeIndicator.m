@@ -7,6 +7,10 @@
     return self.prefersAutoHidden;
 }
 
+- (UIViewController *)childViewControllerForHomeIndicatorAutoHidden {
+    return nil;
+}
+
 @end
 
 
